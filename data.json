@@ -1,0 +1,268 @@
+[
+    {
+        "center_name": "Ecoworld",
+        "center_id": 1,
+        "center_city": "Bengaluru",
+        "events_at_center": [
+            {
+                "event_type_id": 3,
+                "event_type_name": "Recreational",
+                "events_list": [
+                    {
+                        "title": "Design your Dessert",
+                        "event_id": 770,
+                        "short_description": "Celebrate the season of festivities with desserts that define the occasion.",
+                        "start_date": "Fri, Oct 12, 2018",
+                        "end_date": "Fri, Oct 12, 2018",
+                        "start_time": 32,
+                        "end_time": 34,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/770/small-299224.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            },
+            {
+                "event_type_id": 1,
+                "event_type_name": "Educational",
+                "events_list": [
+                    {
+                        "title": "World Math Day ",
+                        "event_id": 795,
+                        "short_description": "If numbers get you excited then it’s a ‘Sine’ that you are in love with Maths. So why don’t you wow us with your expertise of equations?",
+                        "start_date": "Tue, Oct 16, 2018",
+                        "end_date": "Tue, Oct 16, 2018",
+                        "start_time": 34,
+                        "end_time": 36,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/795/small-412348.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "center_name": "One Paramount",
+        "center_id": 3,
+        "center_city": "Chennai",
+        "events_at_center": [
+            {
+                "event_type_id": 3,
+                "event_type_name": "Recreational",
+                "events_list": [
+                    {
+                        "title": "Financial Investment Talk ",
+                        "event_id": 783,
+                        "short_description": "Interested in learning the tips and tricks to manage your financial investments, savings and Mutual Funds?",
+                        "start_date": "Fri, Oct 12, 2018",
+                        "end_date": "Fri, Oct 12, 2018",
+                        "start_time": 32,
+                        "end_time": 36,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/783/small-478482.jpg",
+                        "organizer_name": "CoWrks"
+                    },
+                    {
+                        "title": "Time To Thandia!",
+                        "event_id": 785,
+                        "short_description": "As the festive spirit of Navratri takes over CoWrks, it’s time to sway to the groove of Dandiya!",
+                        "start_date": "Wed, Oct 17, 2018",
+                        "end_date": "Wed, Oct 17, 2018",
+                        "start_time": 34,
+                        "end_time": 38,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/785/small-114661.jpg",
+                        "organizer_name": "CoWrks"
+                    },
+                    {
+                        "title": "Youth Wierdo Meetup",
+                        "event_id": 778,
+                        "short_description": "This October, CoWrks will be playing host to events from Indian Youth Cafe - an experiential project created to help Chennai’s youth community.",
+                        "start_date": "Wed, Oct 31, 2018",
+                        "end_date": "Wed, Oct 31, 2018",
+                        "start_time": 32,
+                        "end_time": 36,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/778/small-915011.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "center_name": "OMR",
+        "center_id": 6,
+        "center_city": "Chennai",
+        "events_at_center": [
+            {
+                "event_type_id": 3,
+                "event_type_name": "Recreational",
+                "events_list": [
+                    {
+                        "title": "Youth Wierdo Meetup",
+                        "event_id": 777,
+                        "short_description": "This October, CoWrks will be playing host to events from Indian Youth Cafe - an experiential project created to help Chennai’s youth community.",
+                        "start_date": "Wed, Oct 17, 2018",
+                        "end_date": "Wed, Oct 17, 2018",
+                        "start_time": 34,
+                        "end_time": 38,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/777/small-919015.jpg",
+                        "organizer_name": "CoWrks"
+                    },
+                    {
+                        "title": "Play For Foosball Glory!",
+                        "event_id": 789,
+                        "short_description": "Call yourself a pro in Foosball? Then get ready to battle it out to be crowned the King of Foosball!",
+                        "start_date": "Wed, Oct 24, 2018",
+                        "end_date": "Wed, Oct 24, 2018",
+                        "start_time": 28,
+                        "end_time": 36,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/789/small-263465.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "center_name": "Whitefield",
+        "center_id": 5,
+        "center_city": "Bengaluru",
+        "events_at_center": [
+            {
+                "event_type_id": 3,
+                "event_type_name": "Recreational",
+                "events_list": [
+                    {
+                        "title": "Foosball Competition",
+                        "event_id": 788,
+                        "short_description": "Call yourself a pro in Foosball? Then get ready to battle it out at CoWrks NXT’s first-ever",
+                        "start_date": "Thu, Oct 11, 2018",
+                        "end_date": "Thu, Oct 11, 2018",
+                        "start_time": 33,
+                        "end_time": 36,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/788/small-359479.jpg",
+                        "organizer_name": "CoWrks"
+                    },
+                    {
+                        "title": "World Food Day",
+                        "event_id": 793,
+                        "short_description": "Grab your plates, get your taste buds ready and get ready to dig in.",
+                        "start_date": "Tue, Oct 16, 2018",
+                        "end_date": "Tue, Oct 16, 2018",
+                        "start_time": 33,
+                        "end_time": 35,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/793/small-918409.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "center_name": "Worli",
+        "center_id": 8,
+        "center_city": "Mumbai",
+        "events_at_center": [
+            {
+                "event_type_id": 3,
+                "event_type_name": "Recreational",
+                "events_list": [
+                    {
+                        "title": "Know Thy Neighbours",
+                        "event_id": 786,
+                        "short_description": "Connect with your fellow CoWrkers! What kind of projects are they working on? What do they love to eat, listen to or read?",
+                        "start_date": "Wed, Oct 17, 2018",
+                        "end_date": "Wed, Oct 17, 2018",
+                        "start_time": 34,
+                        "end_time": 38,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/786/small-611915.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "center_name": "GCR",
+        "center_id": 7,
+        "center_city": "Gurgaon",
+        "events_at_center": [
+            {
+                "event_type_id": 3,
+                "event_type_name": "Recreational",
+                "events_list": [
+                    {
+                        "title": "Ptah Workshop",
+                        "event_id": 792,
+                        "short_description": "You know what’s great therapy? Art! Get those creative juices flowing at work, and unleash your inner Picasso!",
+                        "start_date": "Fri, Oct 12, 2018",
+                        "end_date": "Fri, Oct 12, 2018",
+                        "start_time": 32,
+                        "end_time": 36,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/792/small-514141.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "center_name": "New Indiranagar",
+        "center_id": 2,
+        "center_city": "Bengaluru",
+        "events_at_center": [
+            {
+                "event_type_id": 3,
+                "event_type_name": "Recreational",
+                "events_list": [
+                    {
+                        "title": "Grab A Scoop Of Happiness",
+                        "event_id": 784,
+                        "short_description": "CoWrks members! Get ready to taste all the fresh and fun flavours of ice cream from Pop Hop.",
+                        "start_date": "Fri, Oct 12, 2018",
+                        "end_date": "Fri, Oct 12, 2018",
+                        "start_time": 34,
+                        "end_time": 36,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/784/small-380589.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "center_name": "Central",
+        "center_id": 9,
+        "center_city": "Gurgaon",
+        "events_at_center": [
+            {
+                "event_type_id": 3,
+                "event_type_name": "Recreational",
+                "events_list": [
+                    {
+                        "title": "Let’s Foosball!",
+                        "event_id": 787,
+                        "short_description": "Gather round with your gang and get ready to rule the table!",
+                        "start_date": "Thu, Oct 11, 2018",
+                        "end_date": "Thu, Oct 11, 2018",
+                        "start_time": 30,
+                        "end_time": 34,
+                        "no_of_member": 0,
+                        "small_image_url": "https://cdn.cowrks.com/event/787/small-806787.jpg",
+                        "organizer_name": "CoWrks"
+                    }
+                ]
+            }
+        ]
+    }
+]
