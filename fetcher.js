@@ -42,8 +42,14 @@ var Fetcher = function(url, reloadInterval, encoding) {
 
 		// nodeVersion = Number(process.version.match(/^v(\d+\.\d+)/)[1]);
 		// headers =  {"User-Agent": "Mozilla/5.0 (Node.js "+ nodeVersion + ") MagicMirror/"  + global.version +  " (https://github.com/MichMich/MagicMirror/)"}
-
-		request(url,function(err, resp, body){
+		
+		request({
+			headers: {
+				'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZWNyZXQiOiJSYXNwYmVycnlQaSJ9.KvswZhVNiknLoxYDBVaRwhlKtqhXRVPZAVs2jOVBHz0'
+			},
+			uri: url,
+			method: 'GET'
+		},function(err, resp, body){
 			if(err){
 				if(err.code === "ECONNREFUSED"){
 					processData(staticData)
@@ -54,8 +60,12 @@ var Fetcher = function(url, reloadInterval, encoding) {
 				}
 			}
 			else{
-				// var data = JSON.parse(body).data;
-				processData(JSON.parse(body).data)
+				if(resp.statusCode !== 200){
+					processData(staticData)
+				}
+				else{
+					processData(JSON.parse(body).data)
+				}
 			}
 		});
 
@@ -71,13 +81,16 @@ var Fetcher = function(url, reloadInterval, encoding) {
 				events_list = events_list['events_list'];
 				events_list.forEach(function(item){
 					var title = item.title || "";
-					var description = item.short_description ? (item.short_description + " @"+center+", "+city ) : "";
+					var description = item.short_description;// ? (item.short_description + " @"+center+", "+city ) : "";
 					var url = item.small_image_url || "";
 					if (title && description) {
 						items.push({
 							title: title,
 							description: description,
 							url: url,
+							city: city,
+							center: center,
+							time: item.start_date
 						});
 					}
 				});

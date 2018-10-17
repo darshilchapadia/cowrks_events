@@ -13,8 +13,8 @@ Module.register("cowrks_events",{
 	defaults: {
 		feeds: [
 			{
-				title: "CoWrks Events",
-				url: "http://127.0.0.1:8000/web/event",
+				// title: "CoWrks Events",
+				url: "http://devapi.cowrks.info/connect/web/event",
 				encoding: "UTF-8" //ISO-8859-1
 			}
 		],
@@ -88,7 +88,7 @@ Module.register("cowrks_events",{
 		}
 
 		if (this.newsItems.length > 0) {
-
+			// let data = this.newsItems[this.activeItem];
 			if (this.config.showSourceTitle || this.config.showPublishDate) {
 				var sourceAndTimestamp = document.createElement("div");
 				sourceAndTimestamp.className = "light small dimmed";
@@ -159,8 +159,14 @@ Module.register("cowrks_events",{
 
 			if (this.config.showDescription) {
 				var description = document.createElement("div");
-				description.className = "small light";
-				description.innerHTML = this.newsItems[this.activeItem].description;
+				description.className = "small light wd-300";
+				var detail_description = document.createElement("p");
+				detail_description.innerHTML = this.newsItems[this.activeItem].description;
+				description.appendChild(detail_description);
+				var location_detail = document.createElement("p");
+				location_detail.className = "bright"
+				location_detail.innerHTML = "@" + this.newsItems[this.activeItem].center + ", " + this.newsItems[this.activeItem].city + " on " + this.newsItems[this.activeItem].time;
+				description.appendChild(location_detail)
 				wrapper.appendChild(description);
 			}
 
@@ -168,9 +174,6 @@ Module.register("cowrks_events",{
 			wrapper.innerHTML = this.translate("LOADING");
 			wrapper.className = "small dimmed";
 		}
-
-		// wrapper.innerHTML = "TESTING in MAGIC Mirror";
-		// wrapper.className = "small dimmed";
 
 		return wrapper;
 	},
